@@ -162,7 +162,9 @@ dcredit = -1
 # If less than 0 it is the minimun number of uppercase characters in the new 
 # password.
 ucredit = -1
-# ...
+# The maximum credit for having lowercase characters in the new password.
+# If less than 0 it is the minimum number of lowercase characters in the new password. (default 1)
+lcredit = -1
 # The maximum number of allowed consecutive same characters in the new password.
 # The check is disabled if the value is 0.
 maxrepeat = 3
